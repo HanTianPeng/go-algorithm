@@ -1,11 +1,10 @@
 # go-algorithm
 &nbsp;&nbsp;&nbsp;&nbsp;嗨！大家好，我是Conk，全栈打杂工。接下来计划每周至少用Go刷一道算法题，欢迎大家围观。JavaScript者可以参考我的fullstackreview项目。谢谢！
 
-[toc]
 ### 01-排序算法
-- [选择排序]()
-- [冒泡排序]()
-- [插入排序]()
+- [选择排序](./01-排序算法/selectsort.go)
+- [冒泡排序](./01-排序算法/bubblesort.go)
+- [插入排序](./01-排序算法/insertsort.go)
 - [希尔排序]()
 - [归并排序]()
 - [快速排序]()
