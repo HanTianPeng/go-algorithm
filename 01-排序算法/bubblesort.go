@@ -1,6 +1,6 @@
 /*
 Author: Conk
-Function: select_sort
+Function: BubbleSort
 CreateTime: 2021-05-18 00:10:00
 UpdateTime: 2021-05-18 00:10:00
 01排序算法-冒泡排序:
