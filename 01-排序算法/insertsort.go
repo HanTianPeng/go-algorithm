@@ -20,11 +20,9 @@ UpdateTime: 2021-05-18 00:10:00
 稳定性: 稳定
 */
 
-
 package main
 
 import "fmt"
-
 
 func InsertSort(arr []int) {
 	for i := 1; i < len(arr); i++ {
@@ -36,11 +34,13 @@ func InsertSort(arr []int) {
 			insertIndex--
 		}
 
+		// 插入
 		if insertIndex + 1 != i {
 			arr[insertIndex + 1] = insertVal
 		}
 	}
 }
+
 
 func main() {
 	testData01 := []int{1, 2, 3, 4, 5}
