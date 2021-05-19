@@ -84,10 +84,14 @@ func main() {
 	MergeSort(testData02, 0, len(testData02))
 	fmt.Println(testData02)
 
-	testData03 := []int{5, 1, 2, 2, 3, 4, 4}
+	testData03 := []int{5, 1, 2, 2, 3, 4, 4, 8}
 	fmt.Println()
 	MergeSort(testData03, 0, len(testData03))
 	fmt.Println(testData03)
+
+	testData04 := []int{2, 4, 6, 5, 10, 8, 3, 1}
+	MergeSort(testData04, 0, len(testData04))
+	fmt.Println(testData04)
 }
 
 
