@@ -1,6 +1,6 @@
 /*
 Author: Conk
-Function: SelectSort
+Function: QuickSort
 CreateTime: 2021-05-19 00:10:00
 UpdateTime: 2021-05-19 00:10:00
 01排序算法-快速排序:
@@ -16,8 +16,6 @@ UpdateTime: 2021-05-19 00:10:00
 		左边: 2, 4, 1, 3 left=0 right=3
 		右边: 10, 8, 5, 6 left = 4 right = 7
 	以此类推....
-
-
 
 平均时间复杂度: O(nlog2n)
 空间复杂度: log2n

@@ -1,6 +1,6 @@
 /*
 Author: Conk
-Function: SelectSort
+Function: MergeSort
 CreateTime: 2021-05-19 00:10:00
 UpdateTime: 2021-05-19 00:10:00
 01排序算法-归并排序:
