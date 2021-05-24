@@ -43,7 +43,6 @@ func QuickSort(arr []int, left, right int) {
 			l++
 		}
 		for arr[r] > pivot {
-			fmt.Println("ssss", r, l)
 			r--
 		}
 		// 交换

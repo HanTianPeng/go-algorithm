@@ -17,6 +17,8 @@
 | [基数排序]()  | O(n+k) | O(n*k) | O(n*k) | O(n*k) | 稳定 |
 
 ### 02-树
+  - [144.二叉树的前序遍历](02-树/preorderTraversal.go)
+  - [94.二叉树的中序遍历](02-树/postorderTraversal.go)
 
 
 ### 持续更新中。。。
