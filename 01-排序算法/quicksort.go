@@ -33,34 +33,38 @@ func SwapV2(arr []int, i, j int) {
 
 // QuickSort: 快速排序，从大到小排序
 func QuickSort(arr []int, left, right int) {
+	// 创建双指针
 	l := left
 	r := right
 	// 基准
 	pivot := arr[(l + r) / 2]
-	// 一次快排
+	// 一次快排,左右指针进行夹逼遍历
 	for l < r {
+		// 左指针比基准值小的继续右移动
 		for arr[l] < pivot {
 			l++
 		}
+		// 右指针比基准值大的继续左移动
 		for arr[r] > pivot {
 			r--
 		}
-		// 交换
+		// 左右指针值进行交换
 		if l < r {
 			SwapV2(arr, l, r)
 			l++
 			r--
 		}
 	}
-	// 边界处理
+	// 边界处理: 正好基准左边都比基准小,右边都比基准大
 	if l == r {
 		l++
 		r--
 	}
-	// 分治
+	// 分治: 递归遍历左区间
 	if left < r {
 		QuickSort(arr, left, r)
 	}
+	// 分治: 递归遍历右区间
 	if right > l {
 		QuickSort(arr, l, right)
 	}
