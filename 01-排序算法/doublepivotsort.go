@@ -99,7 +99,6 @@ func main() {
 	fmt.Println(testData02)
 
 	testData03 := []int{5, 1, 2, 2, 3, 4, 4, 8}
-	fmt.Println()
 	DoublePivotSort(testData03, 0, len(testData03) - 1)
 	fmt.Println(testData03)
 
