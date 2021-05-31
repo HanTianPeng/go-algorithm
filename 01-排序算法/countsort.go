@@ -85,13 +85,13 @@ func InitTestData(count int) []int {
 }
 
 func main() {
-	//testData01 := []int{1, 2, 3, 4, 5}
-	//testData01 = CountSortV1(testData01)
-	//fmt.Println(testData01)
-	//
-	//testData02 := []int{5, 4, 3, 2, 1}
-	//testData02 = CountSortV1(testData02)
-	//fmt.Println(testData02)
+	testData01 := []int{1, 2, 3, 4, 5}
+	testData01 = CountSortV1(testData01)
+	fmt.Println(testData01)
+
+	testData02 := []int{5, 4, 3, 2, 1}
+	testData02 = CountSortV1(testData02)
+	fmt.Println(testData02)
 
 	testData03 := []int{5, 1, 2, 2, 3, 4, 4, 8}
 	testData03 = CountSortV1(testData03)
