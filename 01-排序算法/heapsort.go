@@ -38,17 +38,17 @@ func Heapify(heap Heap, parentNode int) {
 	leftNode := parentNode * 2 + 1
 	rightNode := parentNode * 2 + 2
 
-	minNode := parentNode
-	if leftNode < heap.size && heap.arr[leftNode] > heap.arr[minNode] {
-		minNode = leftNode
+	maxNode := parentNode
+	if leftNode < heap.size && heap.arr[leftNode] > heap.arr[maxNode] {
+		maxNode = leftNode
 	}
-	if rightNode < heap.size && heap.arr[rightNode] > heap.arr[minNode] {
-		minNode = rightNode
+	if rightNode < heap.size && heap.arr[rightNode] > heap.arr[maxNode] {
+		maxNode = rightNode
 	}
 
-	if minNode != parentNode {
-		SwapV4(heap.arr, minNode, parentNode)
-		Heapify(heap, minNode)
+	if maxNode != parentNode {
+		SwapV4(heap.arr, maxNode, parentNode)
+		Heapify(heap, maxNode)
 	}
 }
 
